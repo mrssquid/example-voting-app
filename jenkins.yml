@@ -3,8 +3,8 @@ services:
   jenkins:
     image: rwlaub/jenkins
     environment:
-      - GITHUB_ID=<your github id>
-      - DOCKERHUB_ID=<your dockerhub id>
+      - GITHUB_ID=mrssquid
+      - DOCKERHUB_ID=wendycowley
     ports:
       - "8080:8080"
     volumes:
